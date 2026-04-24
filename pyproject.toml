@@ -98,3 +98,5 @@ cov_report = "term-missing"
 # show individual test durations so I can spot slow tests easily
 log_cli = true
 log_cli_level = "INFO"
+# print a short summary of all failures at the end - much easier to read
+addopts = "-v --tb=short -p no:warnings"
