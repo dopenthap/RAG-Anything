@@ -99,4 +99,5 @@ cov_report = "term-missing"
 log_cli = true
 log_cli_level = "INFO"
 # print a short summary of all failures at the end - much easier to read
-addopts = "-v --tb=short -p no:warnings"
+# also added --durations=10 to show the 10 slowest tests after each run
+addopts = "-v --tb=short -p no:warnings --durations=10"
